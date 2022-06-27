@@ -1,10 +1,26 @@
 <template>
-  <h1 style="width: 300px">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, facilis nisi non optio provident reiciendis voluptatem. Atque cupiditate error tempore.</h1>
+
+    <section>
+        <img :src="'../../../assets/image/Group%205.png'" alt="photo-1">
+
+    </section>
+
+    <section>
+
+    </section>
+
 </template>
 
 <script>
+import UiButton from "../../core/UI/UiButton";
 export default {
-    name: "HomePage"
+    name: 'HomePage',
+    components: {UiButton},
+    data() {
+        return {
+
+        }
+    }
 }
 </script>
 

@@ -16,7 +16,7 @@ import LayoutPageHeader from './LayoutPageHeader';
 
 export default {
     name: 'LayoutPage',
-    components: {LayoutPageHeader}
+    components: { LayoutPageHeader }
 }
 </script>
 

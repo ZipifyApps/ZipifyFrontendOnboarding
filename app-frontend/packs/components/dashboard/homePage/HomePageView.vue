@@ -1,19 +1,19 @@
 <template>
 
     <LayoutPage>
-        <homePage></homePage>
+        <HomePage></HomePage>
     </LayoutPage>
 
 </template>
 
 <script>
 
-import homePage from './HomePage';
+import HomePage from './HomePage';
 
 export default {
     name: 'HomePageView',
     components: {
-        homePage
+        HomePage
     }
 }
 
